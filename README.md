@@ -1,113 +1,113 @@
-<!--lint disable awesome-git-repo-age-->
-# Awesome Digital Twins [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+<div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text">
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font _mstmutation="1" _msttexthash="24369930" _msthash="205">出色的数字孪生</font><a href="https://github.com/sindresorhus/awesome"><img src="https://camo.githubusercontent.com/3418ba3754faddfb88c5cbdc94c31ad670fc693c8caa59bc2806c9836acc04e4/68747470733a2f2f617765736f6d652e72652f62616467652e737667" alt="棒" data-canonical-src="https://awesome.re/badge.svg" style="max-width: 100%;" _mstalt="95004" _msthash="204"></a></h1><a id="user-content-awesome-digital-twins-" class="anchor" aria-label="永久链接：很棒的数字孪生" href="#awesome-digital-twins-" _mstaria-label="812708" _msthash="206"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto" _msttexthash="77699076" _msthash="207">这是一个精选的 Digital Twin 资源存储库。</p>
+<p dir="auto" _msttexthash="5456067565" _msthash="208">研究和工业界利用数字孪生来监控和/或控制各个领域的（信息物理）系统，包括汽车、航空电子、生物、建筑、制造、医学等等。
+它们有望降低成本和时间，并提高我们对所代表系统的理解。
+各种数字孪生用于不同的目的，包括分析、控制和行为预测，并且它们在相对于所表示系统的不同时间使用，例如，在系统存在之前用于探索其设计空间，或在运行时用于优化其行为。</p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4341103" _msthash="209">内容</h2><a id="user-content-contents" class="anchor" aria-label="永久链接：目录" href="#contents" _mstaria-label="374413" _msthash="210"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#definitions" _msttexthash="4218214" _msthash="211">定义</a></li>
+<li><a href="#software-solutions" _msttexthash="20181057" _msthash="212">软件解决方案</a></li>
+<li><a href="#videos" _msttexthash="7271498" _msthash="213">视频</a></li>
+<li><a href="#books" _msttexthash="1826370" _msthash="214">书</a></li>
+<li><a href="#lectures" _msttexthash="5774366" _msthash="215">讲座</a></li>
+<li><a href="#initiatives" _msttexthash="5030454" _msthash="216">措施</a></li>
+<li><a href="#research-events" _msttexthash="12080211" _msthash="217">研究活动</a></li>
+<li><a href="#interesting-papers" _msttexthash="18087836" _msthash="218">有趣的论文</a></li>
+<li><a href="#other-awesome-lists" _msttexthash="23864854" _msthash="219">其他很棒的列表</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="4218214" _msthash="220">定义</h2><a id="user-content-definitions" class="anchor" aria-label="永久链接：定义" href="#definitions" _mstaria-label="478985" _msthash="221"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 
-This is a curated repository of awesome Digital Twin resources.
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="421430633" _msthash="222">“数字孪生是真实世界实体和流程的虚拟表示，以指定的频率和保真度同步。”（<a href="https://www.digitaltwinconsortium.org" rel="nofollow" _mstmutation="1" _istranslated="1">数字孪生联盟</a></font>)</li>
+<li><font _mstmutation="1" _msttexthash="2404470120" _msthash="223">“数字孪生是活跃的独特产品（真实设备、物体、机器、服务或无形资产）或独特产品服务系统（由产品和相关服务组成的系统）的数字表示，它通过模型、信息和数据在单个甚至多个生命周期阶段内获得其选定的特征、属性、条件和行为。”（<a href="https://www.acatech.de/wp-content/uploads/2019/09/Forschungsbeirat_Themenfelder-Industrie-4.0-2.pdf" rel="nofollow" _mstmutation="1" _istranslated="1">Acatech</a> 英科</font>)</li>
+<li><font _mstmutation="1" _msttexthash="207083747" _msthash="224">“数字表示足以满足一组使用案例的要求。”（<a href="https://industrialdigitaltwin.org/glossar/digitaler-zwilling" rel="nofollow" _mstmutation="1" _istranslated="1">工业数字孪生协会</a></font>)</li>
+<li><font _mstmutation="1" _msttexthash="3820497330" _msthash="225">“原始系统的数字孪生是一种软件，它由一组系统模型和一组数字影子组成，这两者都是有目的地定期更新的，并提供一组服务，以便有目的地针对原始系统使用两者。数字孪生通过提供有关系统上下文的有用信息并向其发送控制命令来与原始系统进行交互。（<a href="https://www.se-rwth.de/essay/Digital-Twin-Definition/" rel="nofollow" _mstmutation="1" _istranslated="1">定义由德国卓越集群提供，在 Dagstuhl DT MDE 研讨会后更新，版本 2.2</a></font>)</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="20181057" _msthash="226">软件解决方案</h2><a id="user-content-software-solutions" class="anchor" aria-label="永久链接： 软件解决方案" href="#software-solutions" _mstaria-label="741702" _msthash="227"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/digitaltwinconsortium" _msttexthash="48993542" _msthash="228">Digital Twin Consortium 软件存储库</a></li>
+<li _msttexthash="289725098" _msthash="229"><a href="https://www.eclipse.org/ditto/intro-digitaltwins.html" rel="nofollow" _istranslated="1">Eclipse Ditto</a> - 用于构建连接到互联网的设备的构建数字孪生的开源框架。</li>
+<li><a href="https://industrialdigitaltwin.org/en/technology" rel="nofollow" _msttexthash="48310119" _msthash="230">Asset Administration Shell - 开源软件</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="7271498" _msthash="231">视频</h2><a id="user-content-videos" class="anchor" aria-label="永久链接： 视频" href="#videos" _mstaria-label="304434" _msthash="232"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://edt.community/past-events/" rel="nofollow" _msttexthash="70316974" _msthash="233">工程数字孪生体讲座 – 系列研讨会</a></li>
+<li _msttexthash="157264315" _msthash="234"><a href="https://www.youtube.com/watch?v=2ryz9IPIQes" rel="nofollow" _istranslated="1">关于数字孪生的计算机爱好者视频</a> - 很棒的介绍视频。</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="1826370" _msthash="235">书</h2><a id="user-content-books" class="anchor" aria-label="永久链接： 书籍" href="#books" _mstaria-label="273897" _msthash="236"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="328506386" _msthash="237"><a href="https://link.springer.com/book/10.1007/978-981-99-0252-1" rel="nofollow" _istranslated="1">数字孪生驱动的智能系统和新兴的元宇宙</a> - Springer：不同领域的数字孪生基础和示例。</li>
+<li _msttexthash="304667493" _msthash="238"><a href="https://link.springer.com/book/9783031667183" rel="nofollow" _istranslated="1">数字孪生的工程</a> - 一本关于数字孪生的书，<a href="https://digital-twin-book.org/" rel="nofollow" _istranslated="1">附带网站包含</a>代码、讲座等额外材料。</li>
+<li _msttexthash="334168614" _msthash="239"><a href="https://link.springer.com/book/9783031677779" rel="nofollow" _istranslated="1">数字孪生：基础知识和应用</a> - 数字孪生联盟 （DTC） 关于其<a href="https://www.digitaltwinconsortium.org/wp-content/uploads/sites/3/2023/07/Platform-Stack-Architectural-Framework-2023-07-11.pdf" rel="nofollow" _istranslated="1">平台堆栈架构框架</a>的一本书</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5774366" _msthash="240">讲座</h2><a id="user-content-lectures" class="anchor" aria-label="永久链接： 讲座" href="#lectures" _mstaria-label="372372" _msthash="241"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://student.canopylab.com/public/course-preview/290/" rel="nofollow" _msttexthash="180505650" _msthash="242">CanopyLAB - 未来技术系列：揭开数字孪生的神秘面纱</a></li>
+<li><a href="https://www.coursera.org/lecture/digital-twins/digital-twins-and-the-automotive-industry-ss9Mw" rel="nofollow" _msttexthash="63954267" _msthash="243">Coursera - 数字孪生和汽车行业</a></li>
+<li><a href="https://www.coursera.org/learn/mastering-digital-twins" rel="nofollow" _msttexthash="37197459" _msthash="244">Coursera - 掌握数字孪生</a></li>
+<li><a href="https://www.udemy.com/course/digital-twin-a-comprehensive-overview/" rel="nofollow" _msttexthash="42671148" _msthash="245">数字孪生：全面概述</a></li>
+<li><a href="https://www.ntnu.edu/studies/courses/IP500520#tab=omEmnet" rel="nofollow" _msttexthash="19157372" _msthash="246">数字孪生技术</a></li>
+<li><a href="https://www.conted.ox.ac.uk/courses/digital-twins-enhancing-model-based-design-with-ar-vr-and-mr" rel="nofollow" _msttexthash="119883829" _msthash="247">数字孪生：使用 AR、VR 和 MR 增强基于模型的设计</a></li>
+<li><a href="https://www.youtube.com/watch?v=AO8Q_YIjsis" rel="nofollow" _msttexthash="133966157" _msthash="248">Mark Rochon 杰出讲座系列：构建人类数字孪生</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="5030454" _msthash="249">措施</h2><a id="user-content-initiatives" class="anchor" aria-label="永久链接： 倡议" href="#initiatives" _mstaria-label="481377" _msthash="250"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="92333800" _msthash="251"><a href="https://www.digitwins.org/about-the-initiative" rel="nofollow" _istranslated="1">DigiTwins 计划</a> - 医疗保健中的数字孪生。</li>
+</ul>
 
-Research and industry leverage digital twins to monitor and/or control (cyber-physical) systems in various domains, including automotive, avionics, biology, construction, manufacturing, medicine, and many more.
-They promise a tremendous potential to reduce cost and time and improve our understanding of the represented systems.
-The various digital twins serve different purposes, including analysis, control, and behavior prediction, and they are used at different times relative to the represented system, e.g., before it exists to explore its design space or during its runtime to optimize its behavior.
-
-## Contents
-
-- [Definitions](#definitions)
-- [Software Solutions](#software-solutions)
-- [Videos](#videos)
-- [Books](#books)
-- [Lectures](#lectures)
-- [Initiatives](#initiatives)
-- [Research Events](#research-events)
-- [Interesting Papers](#interesting-papers)
-- [Other Awesome Lists](#other-awesome-lists)
-
-## Definitions
-
-<!--lint ignore double-link-->
-- "A digital twin is a virtual representation of real-world entities and processes, synchronized at a specified frequency and fidelity." ([Digital Twin Consortium](https://www.digitaltwinconsortium.org))
-- "A digital twin is a digital representation of an active unique product (real device, object, machine, service, or intangible asset) or unique product-service system (a system consisting of a product and a related service) that acquires its selected characteristics, properties, conditions, and behaviours by means of models, information, and data within a single or even across multiple life cycle phases." ([Acatech](https://www.acatech.de/wp-content/uploads/2019/09/Forschungsbeirat_Themenfelder-Industrie-4.0-2.pdf))
-- "Digital representation sufficient to meet the requirements of a set of use cases." ([Industrial Digital Twin Association](https://industrialdigitaltwin.org/glossar/digitaler-zwilling))
-- "A digital twin of an original system is a software that consists of a set of models of the system and a set of digital shadows, both of which are purposefully updated on a regular basis, and provides a set of services to use both purposefully with respect to the original system. The digital twin interacts with the original system by providing useful information about the system's context and sending it control commands."([Definition by the German Cluster of Excellence, updated after the Dagstuhl seminar on MDE of DTs, Version 2.2](https://www.se-rwth.de/essay/Digital-Twin-Definition/))
-
-## Software Solutions
-
-- [Digital Twin Consortium Software Repository](https://github.com/digitaltwinconsortium)
-- [Eclipse Ditto](https://www.eclipse.org/ditto/intro-digitaltwins.html) - Open source framework for building build digital twins of devices connected to the internet.
-- [Asset Administration Shell - Open source software](https://industrialdigitaltwin.org/en/technology)
-
-## Videos
-
-- [Talks of the Engineering Digital Twins – Seminar Series](https://edt.community/past-events/)
-- [Computerphile video on Digital Twins](https://www.youtube.com/watch?v=2ryz9IPIQes) - Great introduction video.
-
-## Books
-
-- [Digital Twin Driven Intelligent Systems and Emerging Metaverse](https://link.springer.com/book/10.1007/978-981-99-0252-1) - Springer: Digital Twin foundations and examples in different fields.
-- [The Engineering of Digital Twins](https://link.springer.com/book/9783031667183) - A book on digital twins with [accompanying website containing](https://digital-twin-book.org/) extra materials like code, lectures, etc.
-- [Digital Twin: Fundamentals and Applications](https://link.springer.com/book/9783031677779) - A book from the Digital Twin Consortium (DTC) concerning their [Platform Stack Architectural Framework](https://www.digitaltwinconsortium.org/wp-content/uploads/sites/3/2023/07/Platform-Stack-Architectural-Framework-2023-07-11.pdf)
-
-## Lectures
-
-- [CanopyLAB - Future Technologies Series: Demystifying Digital Twin](https://student.canopylab.com/public/course-preview/290/)
-- [Coursera - Digital Twins and the Automotive Industry](https://www.coursera.org/lecture/digital-twins/digital-twins-and-the-automotive-industry-ss9Mw)
-- [Coursera - Mastering Digital Twins](https://www.coursera.org/learn/mastering-digital-twins)
-- [Digital Twin: A Comprehensive Overview](https://www.udemy.com/course/digital-twin-a-comprehensive-overview/)
-- [Digital Twin Technology](https://www.ntnu.edu/studies/courses/IP500520#tab=omEmnet)
-- [Digital Twins: Enhancing Model-based Design with AR, VR and MR](https://www.conted.ox.ac.uk/courses/digital-twins-enhancing-model-based-design-with-ar-vr-and-mr)
-- [Mark Rochon Distinguished Lecture Series: Constructing a Human Digital Twin](https://www.youtube.com/watch?v=AO8Q_YIjsis)
-
-## Initiatives
-
-- [DigiTwins Initiative](https://www.digitwins.org/about-the-initiative) - Digital twins in healthcare.
-<!--lint ignore double-link-->
-- [Digital Twin Consortium](https://www.digitaltwinconsortium.org/)
-- [Eclipse Digital Twin](https://projects.eclipse.org/projects/dt/) - Collaborative, open source initiative at the Eclipse Foundation fostering the development of reference implementations for the activities driven by the Industrial Digital Twin Association (IDTA).
-- [Industrial Digital Twin Association](https://industrialdigitaltwin.org/en/)
-
-## Research Events
-
-- [Dagstuhl-Seminar 22362: Model-Driven Engineering of Digital Twins](https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=22362) (see the [report](https://doi.org/10.4230/DagRep.12.9.20))
-- [Engineering of Digital Twins Community](https://edt.community/)
-- [Workshop on Digital Twin Architecture (TwinArch)](https://www.iese.fraunhofer.de/en/twinarch.html)
-- [Workshop on Model-Driven Engineering of Digital Twins (ModDiT'21)](https://gemoc.org/events/moddit2021.html)
-- [Workshop on Model-Driven Engineering of Digital Twins (ModDiT'22)](https://gemoc.org/events/moddit2022.html)
-- [Workshop on Model-Driven Engineering of Digital Twins (ModDiT'23)](https://gemoc.org/events/moddit2023.html)
-- [International Conference on Engineering Digital Twins (EDTconf)](https://conf.researchr.org/home/edtconf-2024)
-
-## Interesting Papers
-
-### 2024
-
-- S. Gil, B. Oakes, C. Gomes, M. Frasheri, P. G. Larsen: [Toward a systematic reporting framework for Digital Twins: a cooperative robotics case study](https://doi.org/10.1177/00375497241261406). In SIMULATION. August 2024.
-- I. David, D. Bork: [Infonomics of Autonomous Digital Twins](https://istvandavid.com/files/infonomics-of-autonomous-dt-CAiSE2024.pdf). Advanced Information Systems Engineering – 36th International Conference, CAiSE 2024, Limassol, Cyprus, 2024, Proceedings. 2024. Lecture Notes in Computer Science.
-- J. Michael, M. Schwammberger, A. Wortmann: [Explaining Cyberphysical System Behavior With Digital Twins](https://doi.org/10.1109/MS.2023.3319580). In IEEE Software, vol. 41, no. 1, pp. 55-63, Jan.-Feb. 2024.
-
-### 2023
-
-- I. David, P. Archambault; Q. Wolak; C. V. Vu; T. Lalonde; K. Riaz; E. Syriani; H. Sahraoui: [Digital Twins for Cyber-Biophysical Systems: Challenges and Lessons Learned](https://doi.org/10.1109/MODELS58315.2023.00014). 2023 ACM/IEEE 26th International Conference on Model Driven Engineering Languages and Systems (MODELS), Västerås, Sweden, 2023, pp. 1-12.
-- B. Combemale, J. Jézéquel, Q. Perez, D. Vojtisek, N. Jansen, J. Michael, F. Rademacher, B. Rumpe, A. Wortmann, J. Zhang: [Model-Based DevOps: Foundations and Challenges](https://doi.org/10.1109/MODELS-C59198.2023.00076). In: Int. Conf. on Model Driven Engineering Languages and Systems Companion (MODELS-C), pp. 429–433, ACM/IEEE, Oct. 2023.
-- I. David, D. Bork: [Towards a Taxonomy of Digital Twin Evolution for Technical Sustainability](https://doi.org/10.1109/MODELS-C59198.2023.00147). 2023 ACM/IEEE International Conference on Model Driven Engineering Languages and Systems Companion (MODELS-C), Västerås, Sweden, 2023, pp. 934-938.
-- E. Ferko, A. Bucaioni, P. Pelliccione, M. Behnam: [Standardisation in Digital Twin Architectures in Manufacturing](https://doi.org/10.1109/ICSA56044.2023.00015). 2023 IEEE 20th International Conference on Software Architecture (ICSA), L'Aquila, Italy, 2023, pp. 70-81.
-- M. Heithoff, A. Hellwig, J. Michael, B. Rumpe: [Digital Twins for Sustainable Software Systems](https://www.se-rwth.de/publications/Digital-Twins-for-Sustainable-Software-Systems.pdf). In: IEEE/ACM 7th Int. Workshop on Green And Sustainable Software (GREENS), P. Lago, R. Kazman (Eds.), pp. 19–23, IEEE, Jul. 2023.
-
-### 2022
-
-- Loek Cleophas, Thomas Godfrey, Djamel Eddine Khelladi, Daniel Lehner, Benoît Combemale, Mark van den Brand, Michael Vierhauser, Manuel Wimmer, Steffen Zschaler: [A community-sourced view on engineering digital twins: a report from the EDT.Community](https://doi.org/10.1145/3550356.3561549). MoDELS (Companion) 2022: 481-485
-- Romina Eramo, Francis Bordeleau, Benoît Combemale, Mark van den Brand, Manuel Wimmer, Andreas Wortmann: [Conceptualizing Digital Twins](https://doi.org/10.1109/MS.2021.3130755). IEEE Softw. 39(2): 39-46 (2022)
-- M. Dalibor, N. Jansen, B. Rumpe, D. Schmalzing, L. Wachtmeister, M. Wimmer, A. Wortmann (2022). [A cross-domain systematic mapping study on software engineering for Digital Twins](http://www.se-rwth.de/publications/A-cross-domain-systematic-mapping-study-on-software-engineering-for-Digital-Twins.pdf). Journal of Systems and Software, Volume 193, Art. 111361, Elsevier
-- D. Bano, J. Michael, B. Rumpe, S. Varga, M. Weske: [Process-Aware Digital Twin Cockpit Synthesis from Event Logs](http://www.se-rwth.de/publications/Process-Aware-Digital-Twin-Cockpit-Synthesis-from-Event-Logs.pdf). Journal of Computer Languages (COLA), Volume 70, Elsevier
-- M. Dalibor, M. Heithoff, J. Michael, L. Netz, J. Pfeiffer, B. Rumpe, S. Varga, A. Wortmann: [Generating Customized Low-Code Development Platforms for Digital Twins](http://www.se-rwth.de/publications/Generating-Customized-Low-Code-Development-Platforms-for-Digital-Twins.pdf). Journal of Computer Languages (COLA), Volume 70, Elsevier
-
-### 2021
-
-- Qi, Q., Tao, F., Hu, T., Anwer, N., Liu, A., Wei, Y., and others & Nee, A. Y. C. (2021). [Enabling technologies and tools for digital twin](https://www.researchgate.net/profile/Qinglin-Qi/publication/336870688_Enabling_technologies_and_tools_for_digital_twin/links/5db7edf14585151435ce6942/Enabling-technologies-and-tools-for-digital-twin.pdf). Journal of Manufacturing Systems, 58, 3-21: the paper describes 5 kinds of constituents of a digital twin, which are (1) physical entities, (2) data, (3) models, (4) services, (5) connections between these. [DOI](https://doi.org/10.1016/j.jmsy.2019.10.001)
-
-### 2020
-
-- Francis Bordeleau, Benoît Combemale, Romina Eramo, Mark van den Brand, Manuel Wimmer: [Towards Model-Driven Digital Twin Engineering: Current Opportunities and Future Challenges](https://doi.org/10.1007/978-3-030-58167-1_4). ICSMM 2020: 43-54
-
-### 2018
-
-- Kritzinger, W., Karner, M., Traar, G., Henjes, J., & Sihn, W. (2018). Digital Twin in manufacturing: [A categorical literature review and classification](https://publik.tuwien.ac.at/files/publik_274125.pdf). IFAC-PapersOnLine, 51(11), 1016-1022: the paper defines a digital twin as a digital object that receives data from and sends data to its physical twin. [DOI](https://doi.org/10.1016/j.ifacol.2018.08.474)
-
-## Other Awesome Lists
-
-- [Awesome Internet of things and sensor data](https://github.com/newTendermint/awesome-bigdata#internet-of-things-and-sensor-data)
+<ul dir="auto">
+<li><a href="https://www.digitaltwinconsortium.org/" rel="nofollow" _msttexthash="20875816" _msthash="252">数字孪生联盟</a></li>
+<li _msttexthash="624436358" _msthash="253"><a href="https://projects.eclipse.org/projects/dt/" rel="nofollow" _istranslated="1">Eclipse 数字孪生</a> - Eclipse 基金会的协作式开源计划，旨在为工业数字孪生协会 （IDTA） 推动的活动开发参考实施。</li>
+<li><a href="https://industrialdigitaltwin.org/en/" rel="nofollow" _msttexthash="25658386" _msthash="254">工业数字孪生协会</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="12080211" _msthash="255">研究活动</h2><a id="user-content-research-events" class="anchor" aria-label="永久链接： Research Events" href="#research-events" _mstaria-label="590642" _msthash="256"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font _mstmutation="1" _msttexthash="235183949" _msthash="257"><a href="https://www.dagstuhl.de/de/programm/kalender/semhp/?semnr=22362" rel="nofollow" _mstmutation="1" _istranslated="1">Dagstuhl-Seminar 22362：数字孪生的模型驱动工程</a>（见<a href="https://doi.org/10.4230/DagRep.12.9.20" rel="nofollow" _mstmutation="1" _istranslated="1">报告</a></font>)</li>
+<li><a href="https://edt.community/" rel="nofollow" _msttexthash="28865057" _msthash="258">数字孪生工程社区</a></li>
+<li><a href="https://www.iese.fraunhofer.de/en/twinarch.html" rel="nofollow" _msttexthash="70024240" _msthash="259">数字孪生架构研讨会 （TwinArch）</a></li>
+<li><a href="https://gemoc.org/events/moddit2021.html" rel="nofollow" _msttexthash="103346269" _msthash="260">数字孪生模型驱动工程研讨会 （ModDiT'21）</a></li>
+<li><a href="https://gemoc.org/events/moddit2022.html" rel="nofollow" _msttexthash="103346646" _msthash="261">数字孪生模型驱动工程研讨会 （ModDiT'22）</a></li>
+<li><a href="https://gemoc.org/events/moddit2023.html" rel="nofollow" _msttexthash="103347023" _msthash="262">数字孪生模型驱动工程研讨会 （ModDiT'23）</a></li>
+<li><a href="https://conf.researchr.org/home/edtconf-2024" rel="nofollow" _msttexthash="77515594" _msthash="263">工程数字孪生国际会议 （EDTconf）</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="18087836" _msthash="264">有趣的论文</h2><a id="user-content-interesting-papers" class="anchor" aria-label="永久链接： 有趣的论文" href="#interesting-papers" _mstaria-label="728364" _msthash="265"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="22152" _msthash="266">2024</h3><a id="user-content-2024" class="anchor" aria-label="永久链接：2024 年" href="#2024" _mstaria-label="194857" _msthash="267"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="664274780" _msthash="268">S. Gil、B. Oakes、C. Gomes、M. Frasheri、PG Larsen：<a href="https://doi.org/10.1177/00375497241261406" rel="nofollow" _istranslated="1">迈向数字孪生的系统报告框架：协作机器人案例研究</a>。在 SIMULATION.2024 年 8 月。</li>
+<li _msttexthash="1278346537" _msthash="269">I. David， D. Bork：<a href="https://istvandavid.com/files/infonomics-of-autonomous-dt-CAiSE2024.pdf" rel="nofollow" _istranslated="1">自主数字孪生的信息经济学</a>。高级信息系统工程 – 第 36 届国际会议，CAiSE 2024，利马索尔，塞浦路斯，2024 年，会议记录。2024. 计算机科学讲义。</li>
+<li _msttexthash="919219158" _msthash="270">J. Michael、M. Schwammberger、A. Wortmann：<a href="https://doi.org/10.1109/MS.2023.3319580" rel="nofollow" _istranslated="1">用数字孪生解释信息物理系统行为</a>。IEEE Software，第 41 卷，第 1 期，第 55-63 页，1 月至 2 月。2024.</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="22022" _msthash="271">2023</h3><a id="user-content-2023" class="anchor" aria-label="永久链接：2023" href="#2023" _mstaria-label="194597" _msthash="272"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="2788133777" _msthash="273">I. 大卫，P. Archambault;Q. 沃拉克;CV Vu;T. 拉隆德;K. 里亚兹;E. 叙利亚人;H. Sahraoui：<a href="https://doi.org/10.1109/MODELS58315.2023.00014" rel="nofollow" _istranslated="1">网络生物物理系统的数字孪生：挑战和经验教训</a>。2023 年 ACM/IEEE 第 26 届模型驱动工程语言和系统 （MODELS） 国际会议，瑞典韦斯特罗斯，2023 年，第 1-12 页。</li>
+<li _msttexthash="2720479099" _msthash="274">B. Combemale、J. Jézéquel、Q. Perez、D. Vojtisek、N. Jansen、J. Michael、F. Rademacher、B. Rumpe、A. Wortmann、J. Zhang：<a href="https://doi.org/10.1109/MODELS-C59198.2023.00076" rel="nofollow" _istranslated="1">基于模型的 DevOps：基础和挑战</a>。载于：模型驱动工程语言和系统伴侣 （MODELS-C） 国际会议，第 429-433 页，ACM/IEEE，2023 年 10 月。</li>
+<li _msttexthash="1432173600" _msthash="275">I. David， D. Bork：<a href="https://doi.org/10.1109/MODELS-C59198.2023.00147" rel="nofollow" _istranslated="1">迈向数字孪生进化的分类法以实现技术可持续性</a>。2023 年 ACM/IEEE 模型驱动工程语言和系统伴侣国际会议 （MODELS-C），瑞典韦斯特罗斯，2023 年，第 934-938 页。</li>
+<li _msttexthash="1325600263" _msthash="276">E. Ferko、A. Bucaioni、P. Pelliccione、M. Behnam：<a href="https://doi.org/10.1109/ICSA56044.2023.00015" rel="nofollow" _istranslated="1">制造业数字孪生架构的标准化</a>。2023 年 IEEE 第 20 届软件架构国际会议 （ICSA），意大利拉奎拉，2023 年，第 70-81 页。</li>
+<li _msttexthash="1885161824" _msthash="277">M. Heithoff、A. Hellwig、J. Michael、B. Rumpe：<a href="https://www.se-rwth.de/publications/Digital-Twins-for-Sustainable-Software-Systems.pdf" rel="nofollow" _istranslated="1">可持续软件系统的数字孪生</a>。载于：IEEE/ACM 第 7 届绿色与可持续软件 （GREENS） 国际研讨会，P. Lago、R. Kazman（编辑），第 19-23 页，IEEE，2023 年 7 月。</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="21892" _msthash="278">2022</h3><a id="user-content-2022" class="anchor" aria-label="永久链接：2022 年" href="#2022" _mstaria-label="194337" _msthash="279"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="2199740816" _msthash="280">Loek Cleophas、Thomas Godfrey、Djamel Eddine Khelladi、Daniel Lehner、Benoît Combemale、Mark van den Brand、Michael Vierhauser、Manuel Wimmer、Steffen Zschaler：<a href="https://doi.org/10.1145/3550356.3561549" rel="nofollow" _istranslated="1">关于工程数字孪生的社区来源视图：来自 EDT 的报告。社区</a>。MoDELS（伴侣）2022：481-485</li>
+<li _msttexthash="472731883" _msthash="281">Romina Eramo、Francis Bordeleau、Benoît Combemale、Mark van den Brand、Manuel Wimmer、Andreas Wortmann：<a href="https://doi.org/10.1109/MS.2021.3130755" rel="nofollow" _istranslated="1">概念化数字孪生</a>。IEEE 软件。39(2): 39-46 (2022)</li>
+<li _msttexthash="1796499107" _msthash="282">M. Dalibor、N. Jansen、B. Rumpe、D. Schmalzing、L. Wachtmeister、M. Wimmer、A. Wortmann （2022）。<a href="http://www.se-rwth.de/publications/A-cross-domain-systematic-mapping-study-on-software-engineering-for-Digital-Twins.pdf" rel="nofollow" _istranslated="1">数字孪生软件工程的跨领域系统映射研究</a>。系统与软件杂志，第 193 卷，第 111361 条，爱思唯尔</li>
+<li _msttexthash="1087678839" _msthash="283">D. Bano， J. Michael， B. Rumpe， S. Varga， M. Weske： <a href="http://www.se-rwth.de/publications/Process-Aware-Digital-Twin-Cockpit-Synthesis-from-Event-Logs.pdf" rel="nofollow" _istranslated="1">来自事件日志的流程感知数字孪生驾驶舱合成</a>.计算机语言杂志 （COLA），第 70 卷，Elsevier</li>
+<li _msttexthash="1388738312" _msthash="284">M. Dalibor、M. Heithoff、J. Michael、L. Netz、J. Pfeiffer、B. Rumpe、S. Varga、A. Wortmann：<a href="http://www.se-rwth.de/publications/Generating-Customized-Low-Code-Development-Platforms-for-Digital-Twins.pdf" rel="nofollow" _istranslated="1">为数字孪生生成定制的低代码开发平台</a>。计算机语言杂志 （COLA），第 70 卷，Elsevier</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="21762" _msthash="285">2021</h3><a id="user-content-2021" class="anchor" aria-label="永久链接：2021 年" href="#2021" _mstaria-label="194077" _msthash="286"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="4237108005" _msthash="287">齐，Q.，陶，F.，胡，T.，安维尔，N.，刘A.，魏，Y.等 &amp; Nee，A. Y. C. （2021）。<a href="https://www.researchgate.net/profile/Qinglin-Qi/publication/336870688_Enabling_technologies_and_tools_for_digital_twin/links/5db7edf14585151435ce6942/Enabling-technologies-and-tools-for-digital-twin.pdf" rel="nofollow" _istranslated="1">支持数字孪生的技术和工具</a>。制造系统杂志， 58， 3-21： 本文描述了数字孪生的 5 种组成部分，它们是 （1） 物理实体，（2） 数据，（3） 模型，（4） 服务，（5） 这些之间的连接。<a href="https://doi.org/10.1016/j.jmsy.2019.10.001" rel="nofollow" _istranslated="1">数字对象标识符</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="21632" _msthash="288">2020</h3><a id="user-content-2020" class="anchor" aria-label="永久链接：2020 年" href="#2020" _mstaria-label="193817" _msthash="289"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="1307414251" _msthash="290">Francis Bordeleau、Benoît Combemale、Romina Eramo、Mark van den Brand、Manuel Wimmer：<a href="https://doi.org/10.1007/978-3-030-58167-1_4" rel="nofollow" _istranslated="1">迈向模型驱动的数字孪生工程：当前机遇和未来挑战</a>。国际科学杂志杂志 2020：43-54</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto" _msttexthash="22555" _msthash="291">2018</h3><a id="user-content-2018" class="anchor" aria-label="永久链接：2018 年" href="#2018" _mstaria-label="195650" _msthash="292"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li _msttexthash="3540539236" _msthash="293">Kritzinger， W.， Karner， M.， Traar， G.， Henjes， J.， &amp; Sihn， W. （2018）.制造业中的数字孪生：<a href="https://publik.tuwien.ac.at/files/publik_274125.pdf" rel="nofollow" _istranslated="1">分类文献综述和分类</a>。IFAC-PapersOnLine， 51（11）， 1016-1022：本文将数字孪生定义为从其物理孪生接收数据并将数据发送到其物理孪生的数字对象。<a href="https://doi.org/10.1016/j.ifacol.2018.08.474" rel="nofollow" _istranslated="1">数字对象标识符</a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto" _msttexthash="23864854" _msthash="294">其他很棒的列表</h2><a id="user-content-other-awesome-lists" class="anchor" aria-label="永久链接： 其他很棒的列表" href="#other-awesome-lists" _mstaria-label="723515" _msthash="295"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/newTendermint/awesome-bigdata#internet-of-things-and-sensor-data" _msttexthash="51011233" _msthash="296">出色的物联网和传感器数据</a></li>
+</ul>
+</article></div>
